@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  color: #61DAFB;
+  background: #2D2D2D;
+}
+
+h1 {
+  margin: 20px 0 15px 0;
+  color: blue;
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+.form-inline .form-control {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: black;
+}
+
+
+.list-group-item {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-flow: row;
+}
+
+.list-group-item > div {
+  width: 50%;
+}
+
+
